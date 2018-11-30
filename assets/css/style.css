@@ -1,0 +1,21 @@
+/*This is the CSS for the whole Profile website I am building for myself*/
+
+* {
+    box-sizing: border-box;
+    text-align: center;
+  }
+
+header{
+width: 100%;
+float:left;
+height: 40px;
+background: rgb(255, 52, 1);
+}
+
+#About_Me {
+    
+    height: 40px;
+    background-color: rgb(255, 52, 1);
+
+    }
+
