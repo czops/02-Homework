@@ -1,21 +1,45 @@
 /*This is the CSS for the whole Profile website I am building for myself*/
 
-* {
-    box-sizing: border-box;
-    text-align: center;
-  }
-
-header{
-width: 100%;
-float:left;
-height: 40px;
-background: rgb(255, 52, 1);
+/*This is the box sizing code*/
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
 }
 
-#About_Me {
-    
-    height: 40px;
-    background-color: rgb(255, 52, 1);
 
-    }
+header{
+  width: 100%;
+  float:left;
+  height: 40px;
+  background: rgb(251, 253, 253);
+
+}
+
+.Name{
+
+  float: left;
+  text-align: center;
+  padding-top: 45px;
+  padding-right: 4px;
+  padding-left: 4px;
+
+
+  margin-left: 200px;
+  height: 100px;
+  background: rgb(2, 219, 183);
+
+
+  text-decoration: underline; 
+}
+
+.About_Me {
+  float:left;
+  width: 100%;
+  padding: 40px;
+  height: 40px;
+  background-color: rgb(248, 248, 248);
+
+  }
 
