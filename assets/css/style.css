@@ -3,6 +3,7 @@
 /*This is the box sizing code*/
 html {
   box-sizing: border-box;
+  background: rgb(252, 255, 85);
 }
 *, *:before, *:after {
   box-sizing: inherit;
@@ -10,9 +11,9 @@ html {
 
 
 header{
-  width: 100%;
+  
   float:left;
-  height: 40px;
+  height: 60px;
   background: rgb(251, 253, 253);
 
 }
@@ -21,25 +22,94 @@ header{
 
   float: left;
   text-align: center;
-  padding-top: 45px;
+  padding-top: 20px;
   padding-right: 4px;
   padding-left: 4px;
 
-
-  margin-left: 200px;
-  height: 100px;
+  margin-left: 100px;
+  height: 60px;
   background: rgb(2, 219, 183);
 
+  font-family: "Arial", serif;
+  text-decoration: underline; 
+}
 
+/*.clearfix::after {
+  content:""; 
+  display: block;
+  clear: both;
+}*/
+
+/*This is for the side bar buttons in the header*/
+.Tab_About{
+  
+  clear:left;
+  float: right;
+  text-align: center;
+  padding-top: 20px;
+  padding-right: 4px;
+  padding-left: 4px;
+  margin-right:5px;
+
+  height: 60px;
+  background: rgb(119, 119, 119);
+
+  font-family: "Arial", serif;
+  text-decoration: underline; 
+}
+
+.Tab_Portfolio{
+  
+  clear:left;
+  float: right;
+  
+  text-align: center;
+  padding-top: 20px;
+  padding-right: 4px;
+  padding-left: 4px;
+  margin-right:5px;
+
+  height: 60px;
+  background: rgb(119, 119, 119);
+
+  font-family: "Arial", serif;
+  text-decoration: underline; 
+}
+
+.Tab_Contact{
+  
+  clear:left;
+  float: right;
+  text-align: center;
+  padding-top: 20px;
+  padding-right: 4px;
+  padding-left: 4px;
+  margin-right:5px;
+  margin-left:0px;
+
+  height: 60px;
+  background: rgb(119, 119, 119);
+
+  font-family: "Arial", serif;
   text-decoration: underline; 
 }
 
 .About_Me {
+  text-align: center;
   float:left;
-  width: 100%;
-  padding: 40px;
-  height: 40px;
-  background-color: rgb(248, 248, 248);
+  width: 20%;
+  padding: 0px;
+  height: 50px;
+  margin: 10px;
+  background-color:  rgb(2, 219, 183);
 
   }
+  .Bio {
+    float:left;
+    width: 100%;
+    margin: 50px;
+    padding: 10px;
+    height: 50%;
+    background-color: rgb(248, 248, 248);
+    }
 
